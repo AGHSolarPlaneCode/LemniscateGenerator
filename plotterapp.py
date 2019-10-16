@@ -6,13 +6,13 @@ import lemniscate as lem
 class LemniscatePlotterApp(QMainWindow):
     def __init__(self, lemWidget, parent=None):
         super(LemniscatePlotterApp, self).__init__(parent=parent)
-        self.setFixedSize(1200, 700)
+        self.setFixedSize(1500, 900)
         self.setWindowTitle('Lemnisticate Generator')
         self.setCentralWidget(lemWidget)
 
 
 if __name__ == '__main__':
-    print("LemniscatePLotterAapp")
+    print("LemniscatePlotterApp")
 
     qApp = QApplication(sys.argv)
 
